@@ -1,24 +1,34 @@
+<head>
+<title>Basic Page</title>
+<link rel="stylesheet" href="styles.css">
+<meta name="viewport" content="width=device-width, initial=scale=1">
+</head>
+
+<body>
+<div class="container">
+
 <h1>Introduction</h1>
-<div>
+<div class="intro">
 	<img src="https://images.careerfoundry.com/public/frontpages/homepage/flexible-learning.jpg" />
 	<h1>John Doe</h1>
 	<h3>Web Developer at CareerFoundry</h3>
-	<p>{{ Pause and ponder }}</p>
+	<p class="quote">{{ Pause and ponder }}</p>
 </div>
 
 <h1>About</h1>
-<div>
-	<div>
+<div class="about-grid">
+	<div class="i-am">
 	<h3>I am</h3>
-	<ul>
+	<ul class="about-list">
 		<li>An engineer</li>
 		<li>A reader</li>
 		<li>A hobby cook</li>
 	</ul>
 	</div>
-	<div>
+
+	<div class="i-like">
 	<h3>I like to</h3>
-	<ul>
+	<ul class="about-list">
 		<li>Meet new people</li>
 		<li>Play guitar</li>
 		<li>Eat Ice Cream</li>
@@ -28,17 +38,20 @@
 
 <h1>Portfolio</h1>
 <div>
-	<h3>My Projects</h3>
-	<img src="https://images.careerfoundry.com/public/home_page/team_mentor.jpg" />
-	<img src="https://images.careerfoundry.com/public/home_page/team_tutor.jpg" />
-	<img src="https://images.careerfoundry.com/public/home_page/team_career-specialist.jpg" />
-	<img src="https://images.careerfoundry.com/public/home_page/team_student-advisor.jpg" />
+	<h3 class="projects-heading">My Projects</h3>
+	<div class="projects-grid">
+	<img class="project-image" src="https://images.careerfoundry.com/public/home_page/team_mentor.jpg" />
+	<img class="project-image" src="https://images.careerfoundry.com/public/home_page/team_tutor.jpg" />
+	<img class="project-image" src="https://images.careerfoundry.com/public/home_page/team_career-specialist.jpg" />
+	<img class="project-image" src="https://images.careerfoundry.com/public/home_page/team_student-advisor.jpg" />
+	</div>
 </div>
 
 <h1>Links and Footer</h1>
-<div>
+<div class=links-and-contact">
+<div class="links">
 	<h3>Links</h3>
-	<ul>
+	<ul class="links-list">
 		<li><a href="https://github.com/">Github</a></li>
 		<li><a href="https://twitter.com/">Twitter</a></li>
 		<li><a href="https://linkedin.com/">LinkedIn</a></li>
@@ -52,4 +65,24 @@
 	<label for="message">Message: <textarea id="message">Your Message</textarea></label>
 	<input type="submit" valid="Send Message" />
 	</form>
+</div>
+</div>
+
+</div>
+</body>
+
+<p>How many sides are there in a triangle?</p>
+<h4 class="question-text">How many sides are there in a triangle?</h4>
+<p class="answer-text">3</p>
+<h4 class="question-text">What does Pikachu evolve into?</h4>
+<p class="answer-text">Raichu</p>
+<p id="help-text">The send button submits the form</p>
+
+<div class="grid-table">
+	<div>1</div>
+	<div>2</div>
+	<div>3</div>
+	<div>4</div>
+	<div>5</div>
+	<div>6</div>
 </div>
